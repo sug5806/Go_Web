@@ -26,9 +26,9 @@ func home(w http.ResponseWriter, r *http.Request) {
 
 	//Upgrade
 	files := []string{
-		"C:/Users/sug58/go/src/code/snippetbox/cmd/ui/html/home.page.tmpl",
-		"C:/Users/sug58/go/src/code/snippetbox/cmd/ui/html/base.layout.tmpl",
-		"C:/Users/sug58/go/src/code/snippetbox/cmd/ui/html/footer.partial.tmpl",
+		"./ui/html/home.page.tmpl",
+		"./ui/html/base.layout.tmpl",
+		"./ui/html/footer.partial.tmpl",
 	}
 
 	ts, err := template.ParseFiles(files...)
